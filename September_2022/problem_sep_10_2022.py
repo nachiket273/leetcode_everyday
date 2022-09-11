@@ -24,7 +24,7 @@ def main():
     profit = Solution.maxProfit(k, prices)
     ans = 2
     print(f"Expected Max Profit: {ans}")
-    print(f"calculated Max Profit: {profit}")
+    print(f"Calculated Max Profit: {profit}")
     assert ans == profit, f"Calculated Max Profit {profit} doesn't"\
                           + " match with Expected Max Profit {ans}"
 
@@ -34,7 +34,7 @@ def main():
     profit = Solution.maxProfit(k, prices)
     ans = 7
     print(f"Expected Max Profit: {ans}")
-    print(f"calculated Max Profit: {profit}")
+    print(f"Calculated Max Profit: {profit}")
     assert ans == profit, f"Calculated Max Profit {profit} doesn't"\
                           + " match with Expected Max Profit {ans}"
 
