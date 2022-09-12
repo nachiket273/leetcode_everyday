@@ -26,9 +26,9 @@ def main():
     print(f"Expected Max Profit: {ans}")
     print(f"Calculated Max Profit: {profit}")
     assert ans == profit, f"Calculated Max Profit {profit} doesn't"\
-                          + " match with Expected Max Profit {ans}"
+                          + f" match with Expected Max Profit {ans}"
 
-    print("*"*25, "Example: 1", "*"*25)
+    print("*"*25, "Example: 2", "*"*25)
     k, prices = 2, [3, 2, 6, 5, 0, 3]
     print(f"k: {k}, prices: {prices}")
     profit = Solution.maxProfit(k, prices)
@@ -36,7 +36,7 @@ def main():
     print(f"Expected Max Profit: {ans}")
     print(f"Calculated Max Profit: {profit}")
     assert ans == profit, f"Calculated Max Profit {profit} doesn't"\
-                          + " match with Expected Max Profit {ans}"
+                          + f" match with Expected Max Profit {ans}"
 
 if __name__ == "__main__":
     main()

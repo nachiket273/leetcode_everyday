@@ -70,7 +70,7 @@ def main():
     print(f"Result: {res}")
     assert ans == res, f"Output {res} doesn't match with answer {ans}"
 
-    print("*"*25, "Example: 1", "*"*25)
+    print("*"*25, "Example: 2", "*"*25)
     vals = [1, 2, 3, 4, 5, 6, 7]
     print(f"Values: {vals}")
     tree = create_tree(vals)
