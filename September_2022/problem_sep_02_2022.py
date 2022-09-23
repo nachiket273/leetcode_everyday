@@ -6,7 +6,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-    
+
     def __repr__(self) -> str:
         str1 = f"Current Node Value: {self.val}"
         if self.left:
